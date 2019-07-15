@@ -1,5 +1,5 @@
-site_name: 我的网站
+site_name: 我的网站123
 nav:
-- 首页: index.md
-- 参考: cankao.md
+- 首页123: index.md
+- 参考123: cankao.md
 theme: jekyll-theme-slate
