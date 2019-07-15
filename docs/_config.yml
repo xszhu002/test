@@ -1,1 +1,5 @@
+site_name: mywanzan
+nav:
+- home: index.md
+- cankao: cankao.md
 theme: jekyll-theme-leap-day
