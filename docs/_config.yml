@@ -2,4 +2,4 @@ site_name: 我的网站
 nav:
 - 首页: index.md
 - 参考: cankao.md
-theme: jekyll-theme-minimal
+theme: jekyll-theme-slate
