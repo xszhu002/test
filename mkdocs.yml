@@ -1,0 +1,22 @@
+site_name: 我的网站
+nav:
+- 首页: index.md
+- 参考: cankao.md
+theme:
+  name: material
+  palette:
+    primary: 'Blue Grey'
+    accent: 'Pink'
+  feature:
+    tabs: false
+  #font:
+    #text: 'Ubuntu'
+    #code: 'Ubuntu Mono'
+  language: 'zh'
+
+extra:
+  social:
+    - type: github
+      link: https://github.com/cyent
+  search:
+    language: 'ja'
