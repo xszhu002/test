@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>池塘导师 - My Docs</title>
+    <link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "\u6c60\u5858\u5bfc\u5e08", url: "#_top", children: [
+              {title: "\u7b2c\u4e00\u5173", url: "#_2" },
+              {title: "\u7b2c\u4e8c\u5173", url: "#_3" },
+              {title: "\u7b2c\u4e09\u5173", url: "#_4" },
+              {title: "\u7b2c\u56db\u5173", url: "#_5" },
+              {title: "\u7b2c\u4e94\u5173", url: "#_6" },
+              {title: "\u7b2c\u516d\u5173", url: "#_7" },
+              {title: "\u7b2c\u4e03\u5173", url: "#_8" },
+              {title: "\u7b2c\u516b\u5173", url: "#_9" },
+              {title: "\u7b2c\u4e5d\u5173", url: "#_10" },
+              {title: "\u7b2c\u5341\u5173", url: "#_11" },
+          ]},
+        ];
+
+    </script>
+    <script src="../../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../迷宫/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../迷宫/" class="btn btn-xs btn-link">
+        迷宫
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../影片/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../影片/" class="btn btn-xs btn-link">
+        影片
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h1 id="_1">池塘导师</h1>
+<p>Blockly Games 第六个主题是池塘导师，画面中会有两只小鸭，黄色的是自己，红色的是要攻击的目标，必须调整射击角度和距离，攻击到红色小鸭并且消失后才能闯关成功。</p>
+<p>这里开始不只是组装积木，开始练习到撰写简单的程式来达成目的，并且在画面的左下方有一份说明文件可以点开，里面提供详尽的积木说明。</p>
+<blockquote>
+<p>游戏连结：<a href="https://blockly-games.appspot.com/pond-tutor?lang=zh-hant">Blockly Games池塘导师</a></p>
+</blockquote>
+<h2 id="_2">第一关</h2>
+<p>画面中有一个cannon ( 大炮) 的积木，右边的数值分别代表角度°及距离，我们要让黄色小鸭垂直往上射击，角度为90°，距离为40。</p>
+<p>解答：</p>
+<p><img alt="Blockly Games 池塘导师，第一关解答" src="https://tutorials.webduino.io/images/zh-tw/docs/blockly/games/pond-tutor-01.jpg" /></p>
+<h2 id="_3">第二关</h2>
+<p>第二关开始，为游戏中第一次不用积木的方式闯关，而是练习撰写程式码来控制画面中的动作，一样是积木的概念，只是变成一行一行的字母及数字。</p>
+<p>我们让黄色小鸭水平往右方射击红色小鸭，水平往右方的角度为180°，可以点击左下方的说明文件查看，距离为50。</p>
+<p><img alt="Blockly Games 池塘导师，第二关角度座标文件" src="https://tutorials.webduino.io/images/zh-tw/docs/blockly/games/pond-tutor-02-hint.jpg" /></p>
+<p>解答：</p>
+<p><img alt="Blockly Games 池塘导师，第二关解答" src="https://tutorials.webduino.io/images/zh-tw/docs/blockly/games/pond-tutor-02.jpg" /></p>
+<h2 id="_4">第三关</h2>
+<p>第三关必须要攻击很多次，目标才会消失，利用回圈的方式来重复攻击，执行程式的时候，如果瞄准成功，可以看到红色小鸭的红色标示逐渐减少，当红色消失变成灰色时，表示攻击成功。</p>
+<p><img alt="Blockly Games 池塘导师，第三关画面解析" src="https://tutorials.webduino.io/images/zh-tw/docs/blockly/games/pond-tutor-03-hint.jpg" /></p>
+<p>为了让小鸭重复射击，在说明文件中有提到，加入true 积木可以让回圈重复执行。</p>
+<p>解答：</p>
+<p><img alt="Blockly Games 池塘导师，第三关解答" src="https://tutorials.webduino.io/images/zh-tw/docs/blockly/games/pond-tutor-03.jpg" /></p>
+<h2 id="_5">第四关</h2>
+<p>第四关练习撰写回圈的程式，运用上一关的积木组合方式，只是将它转为文字呈现，垂直向下的射击角度为270°，距离为60。</p>
+<p>解答：</p>
+<p><img alt="Blockly Games 池塘导师，第四关解答" src="https://tutorials.webduino.io/images/zh-tw/docs/blockly/games/pond-tutor-04.jpg" /></p>
+<h2 id="_6">第五关</h2>
+<p>第五关的攻击目标会移动，攻击角度为水平往左180°，距离的部分利用新的积木scan ( 扫瞄角度)，让黄色小鸭可以跟着目标移动来改变发射距离，并重复射击直到目标消失。</p>
+<p>解答：</p>
+<p><img alt="Blockly Games 池塘导师，第五关解答" src="https://tutorials.webduino.io/images/zh-tw/docs/blockly/games/pond-tutor-05.jpg" /></p>
+<h2 id="_7">第六关</h2>
+<p>第六关要撰写和前一关类似的积木程式，攻击角度为水平往右0°，距离则利用scan(0) 来追踪目标位置。</p>
+<p>解答：</p>
+<p><img alt="Blockly Games 池塘导师，第六关解答" src="https://tutorials.webduino.io/images/zh-tw/docs/blockly/games/pond-tutor-06.jpg" /></p>
+<h2 id="_8">第七关</h2>
+<p>第七关的提示中有说明利用swim ( 游泳) 积木设定黄色小鸭的移动方向，往右下方的移动角度为315°，撞击到目标后就成功。</p>
+<p>解答：</p>
+<p><img alt="Blockly Games 池塘导师，第七关解答" src="https://tutorials.webduino.io/images/zh-tw/docs/blockly/games/pond-tutor-07.jpg" /></p>
+<h2 id="_9">第八关</h2>
+<p>第八关撰写swim的程式来移动位置，点选执行后会发现目标物也会移动，两只小鸭交集的位置大约在黄色小鸭往下游动275°的位置，所以我们利用和前一关一样的积木<code>swim</code>来撰写程式。</p>
+<p>解答：</p>
+<p><img alt="Blockly Games 池塘导师，第八关解答" src="https://tutorials.webduino.io/images/zh-tw/docs/blockly/games/pond-tutor-08.jpg" /></p>
+<h2 id="_10">第九关</h2>
+<p>根据说明提示，这关不能用撞击的方式来闯关，必须让黄色小鸭游泳一段距离后，再停下来射击红色小鸭。</p>
+<p>在说明文件中有写到，<code>Loc_x()</code>积木代表的是黄色小鸭的水平移动位置，我们让小鸭位置小于50的时候，往右边0°方向游动提示：</p>
+<p><img alt="Blockly Games 池塘导师，第九关位置解析" src="https://tutorials.webduino.io/images/zh-tw/docs/blockly/games/pond-tutor-09-hint.jpg" /></p>
+<p>当游泳位置超过50 的时候停下来，再让小鸭执行重复射击的积木，直到目标消失。</p>
+<p>解答：</p>
+<p><img alt="Blockly Games 池塘导师，第九关解答" src="https://tutorials.webduino.io/images/zh-tw/docs/blockly/games/pond-tutor-09.jpg" /></p>
+<h2 id="_11">第十关</h2>
+<p>这一关的说明中提到，当目标物被攻击时他会逃跑，且两只小鸭之间的距离不能超过70，否则会射击不到，所以我们必须让黄色小鸭跟着红色小鸭一起游泳。</p>
+<p>我们利用<code>while(true)</code>的程式让他可以重复执行，当Y轴位置小于70的时候(其实30~99之间都可以写，因为这样的距离范围内都可以射击得到目标物)，往右上方45°的位置跟着红色小鸭一起游动，游到设定的位置后停止。大炮<code>cannon</code>的程式则让他朝着右上方45°的位置射击，利用扫描<code>scan</code>来让黄色小鸭跟着目标移动来改变发射距离，直到射击成功。</p>
+<p>解答：</p>
+<p><img alt="Blockly Games 池塘导师，第十关解答" src="https://tutorials.webduino.io/images/zh-tw/docs/blockly/games/pond-tutor-10.jpg" /></p>
+<p>以上就是关于池塘导师Pond Tutor 的十个关卡</p>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../迷宫/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../迷宫/" class="btn btn-xs btn-link">
+        迷宫
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../影片/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../影片/" class="btn btn-xs btn-link">
+        影片
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="col-md-12 wm-page-content">
+  <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>
